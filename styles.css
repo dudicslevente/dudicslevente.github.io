@@ -214,8 +214,8 @@
 }
 
 .hero__heading {
-  font-size: 100px;
-  margin-bottom: 24px;
+  font-size: 80px;
+  margin-bottom: 30px;
   color: #fff;
 }
 
@@ -239,7 +239,7 @@
 }
 
 .hero__description {
-  font-size: 60px;
+  font-size: 50px;
   background: #8E0E00;  /* fallback for old browsers */
 
 
