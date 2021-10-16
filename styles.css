@@ -219,6 +219,12 @@
   color: #fff;
 }
 
+.hero__headingb {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+  }
+
 .hero__heading span {
   background: #EF629F; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -290,6 +296,19 @@
 }
 
 .main__content h1 {
+  font-size: 2rem;
+  background: #EECDA3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EF629F, #EECDA3);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 32px;
+}
+
+.main__content h1b {
   font-size: 2rem;
   background: #EECDA3;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
