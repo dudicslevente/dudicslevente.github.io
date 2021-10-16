@@ -533,7 +533,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 }
 
 .NFT__card:nth-child(1) {
-  background-image: url(assets/polybunnywebcard.png);
+  background-image: url(assets/polykittycard.png);
   color: whitesmoke;
 }
 
