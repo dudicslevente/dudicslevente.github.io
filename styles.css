@@ -527,10 +527,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
   display: flex;
   flex-direction: column;
   justify-content: center;
-    margin-bottom: 5rem;
-    
-  
-  background-image: url(assets/Polyrhino.png);
+  margin-bottom: 5rem;
   background-repeat: no-repeat;
   transition: 0.3s ease-in;
 }
@@ -541,7 +538,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 }
 
 .NFT__card:nth-child(2) {
-  background-image: url(assets/Polyrhino.png);
+  background-image: url(assets/Polysheepcard.png);
   color: skyblue;
 }
 
