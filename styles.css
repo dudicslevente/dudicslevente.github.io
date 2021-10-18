@@ -521,35 +521,40 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 
 .NFT__card {
   margin: 10px;
-  height: 425px;
+  height: 480px;
   width: 300px;
-  border-radius: 4px;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   background-repeat: no-repeat;
   transition: 0.3s ease-in;
 }
 
 .NFT__card:nth-child(1) {
   background-image: url(assets/polykittycard.png);
+  
+  background-color: pink;  
   color: whitesmoke;
 }
 
 .NFT__card:nth-child(2) {
   background-image: url(assets/Polysheepcard.png);
-  color: skyblue;
+  color: blue;
+  background-color: pink;
 }
 
 .NFT__card:nth-child(3) {
   background-image: url(assets/polylioncard.png);
-  color: gold;
+  color: yellow;
+  background-color: pink;
 }
 
 .NFT__card:nth-child(4) {
   background-image: url(assets/polydragon.png);
     color: red;
+    background-color: pink;
 }
 
 .NFT__card h2 {
