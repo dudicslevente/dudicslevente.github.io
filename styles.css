@@ -30,8 +30,7 @@
 }
 
 #navbar__logo {
-  background-color: #EF629F;
-  background-image: linear-gradient(to top, #EF629F 0%, #EECDA3 100%);
+  background-color: pink;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
