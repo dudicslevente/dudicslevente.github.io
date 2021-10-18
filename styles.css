@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  background: #121313;
+  background: khaki;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -55,7 +55,8 @@
 }
 
 .navbar__links {
-  color: #fff;
+  color: #2193b0;
+  background-color: khaki;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,6 +73,7 @@
   padding: 0 1rem;
   width: 100%;
   color: #fff;
+    background: khaki;
 }
 
 .button {
@@ -84,16 +86,17 @@
   width: 100%;
   border: none;
   outline: none;
-  border-radius: 4px;
-  background: #EF629F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);
-  background: linear-gradient(to right, #EF629F, #EECDA3);
-  color: #fff;
+  border-radius: 50px;
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: whitesmoke;
   transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-  color: #EF629F;
+  color: pink;
   transition: all 0.3s ease;
 }
 
@@ -121,7 +124,7 @@
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: khaki;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -196,8 +199,7 @@
 
 /* Hero Section */
 .hero {
-  background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
+  background: #2193b0;
   padding: 200px 0;
 }
 
@@ -222,22 +224,11 @@
 .hero__headingb {
   font-size: 50px;
   margin-bottom: 30px;
-  color: #fff;
+  color: pink;
   }
 
 .hero__heading span {
-  background: #EF629F; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #EF629F,
-    #EECDA3
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #EF629F,
-    #EECDA3
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: 100%;
+  background: khaki;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -246,7 +237,7 @@
 
 .hero__description {
   font-size: 50px;
-  background: #8E0E00;  /* fallback for old browsers */
+  background: khaki;  /* fallback for old browsers */
 
 
   background-size: 100%;
@@ -258,7 +249,7 @@
 
 .highlight {
   border-bottom: 4px solid rgb(132, 0, 255);
-  border-bottom-color: #8E0E00;
+  border-bottom-color: pink;
 }
 
 @media screen and (max-width: 768px) {
@@ -273,7 +264,7 @@
 
 /* About Section */
 .main {
-  background-color: #131313;
+  background-color: #2193b0;
   padding: 10rem 0;
 }
 
@@ -291,28 +282,13 @@
 }
 
 .main__content {
-  color: #fff;
+  color: khaki;
   width: 100%;
 }
 
 .main__content h1 {
   font-size: 2rem;
-  background: #EECDA3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EF629F, #EECDA3);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  margin-bottom: 32px;
-}
-
-.main__content h1b {
-  font-size: 2rem;
-  background: #EECDA3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EF629F, #EECDA3);
+  background: khaki;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -323,7 +299,7 @@
 
 .main__content h2 {
   font-size: 4rem;
-  background: #8E0E00;  /* fallback for old browsers */
+  background: pink;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -367,9 +343,8 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #8E0E00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: khaki;
+  
 
 
 
@@ -491,7 +466,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 
 /* Services Section */
 .NFT {
-  background: #131313;
+  background: #2193b0;;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -501,9 +476,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 }
 
 .NFT h1 {
-  background: #EECDA3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EF629F, #EECDA3);
+  background: khaki;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -520,7 +493,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 }
 
 .NFT__card {
-  margin: 10px;
+  margin: 20px;
   height: 480px;
   width: 300px;
   border-radius: 50px;
@@ -559,7 +532,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 
 .NFT__card h2 {
   text-align: center;
-    margin-top: 50px;
+    margin-top: 1px;
 }
 
 .NFT__card p {
@@ -609,7 +582,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 
 /* Footer CSS */
 .footer__container {
-  background-color: #131313;
+  background-color: #2193b0;;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
@@ -618,7 +591,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 }
 
 #footer__logo {
-  color: #fff;
+  color: pink;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -649,23 +622,23 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 
 .footer__link--items h2 {
   margin-bottom: 16px;
-  color: #fff;
+  color: pink;
 }
 
 .footer__link--items a {
-  color: #fff;
+  color: pink;
   text-decoration: none;
   margin-bottom: 0.5rem;
   transition: 0.3 ease-out;
 }
 
 .footer__link--items a:hover {
-  color: #EF629F;
+  color: khaki;
   transition: 0.3 ease-out;
 }
 
 .social__icon--link {
-  color: #fff;
+  color: pink;
   font-size: 24px;
 }
 
@@ -691,7 +664,7 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 }
 
 .website__rights {
-  color: #fff;
+  color: pink;
 }
 
 @media screen and (max-width: 820px) {
