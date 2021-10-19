@@ -31,6 +31,7 @@
 
 #navbar__logo {
   background-color: #2193b0;
+  background-image: #2193b0;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -40,7 +41,7 @@
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 2;
 }
 
 .navbar__menu {
