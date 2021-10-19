@@ -44,6 +44,22 @@
   font-size: 3;
 }
 
+
+#navbar__logo {
+  background-color: #2193b0;
+  background-image: #2193b0;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
 .navbar__menu {
   display: flex;
   align-items: center;
