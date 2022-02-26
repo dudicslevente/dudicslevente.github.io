@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x1A7a1F6F6f310Dd8d2B80245f82fdcFA267dFA11",
-  "SCAN_LINK": "https://polygonscan.com/address/0x1a7a1f6f6f310dd8d2b80245f82fdcfa267dfa11",
+  "CONTRACT_ADDRESS": "0x8568f5F8D6b95d24B5F4528Dc753b3130840c9F3",
+  "SCAN_LINK": "https://mumbai.polygonscan.com/token/0x8568f5F8D6b95d24B5F4528Dc753b3130840c9F3",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Mumbai Testnet",
+    "SYMBOL": "MATIC",
+    "ID": 80001
   },
-  "NFT_NAME": "Polygotchi Universe",
-  "SYMBOL": "PCHI",
-  "MAX_SUPPLY": 10000,
-  "WEI_COST": 4000000000000000000,
-  "DISPLAY_COST": 4,
-  "GAS_LIMIT": 295000,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/polygotchiuniverse",
+  "NFT_NAME": "Deluxe Duck",
+  "SYMBOL": "Duck",
+  "MAX_SUPPLY": 3333,
+  "WEI_COST": 1000000000000000000,
+  "DISPLAY_COST": 1,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/deluxe-ducks",
   "SHOW_BACKGROUND": true
 }
