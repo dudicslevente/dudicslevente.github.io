@@ -10,7 +10,7 @@
   "SYMBOL": "Duck",
   "MAX_SUPPLY": 3333,
   "WEI_COST": 1000000000000000000,
-  "DISPLAY_COST": 1,
+  "DISPLAY_COST": 2,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/deluxe-ducks",
