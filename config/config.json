@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0x8568f5F8D6b95d24B5F4528Dc753b3130840c9F3",
-  "SCAN_LINK": "https://mumbai.polygonscan.com/address/0x8568f5F8D6b95d24B5F4528Dc753b3130840c9F3",
+  "CONTRACT_ADDRESS": "0x27a4eC8372C4F99268BD7203FAbA2cb13c7263e4",
+  "SCAN_LINK": "https://polygonscan.com/address/0x27a4eC8372C4F99268BD7203FAbA2cb13c7263e4",
   "NETWORK": {
-    "NAME": "Mumbai Testnet",
+    "NAME": "Polygon",
     "SYMBOL": "MATIC",
-    "ID": 80001
+    "ID": 137
   },
   "NFT_NAME": "Deluxe Duck",
   "SYMBOL": "Duck",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 1,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/deluxe-ducks",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/deluxeducks",
   "SHOW_BACKGROUND": true
 }
